@@ -1,6 +1,6 @@
 import unittest
 
-import abc_085_b
+import abc085_b
 
 test "q1":
   check calc([10, 8, 8, 6]) == 3

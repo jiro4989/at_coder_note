@@ -1,6 +1,6 @@
 import unittest, random
 
-import abc_049_c
+import abc049_c
 
 test "q1":
   check calc("erasedream") == "YES"

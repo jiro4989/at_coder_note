@@ -1,6 +1,6 @@
 import unittest
 
-import abc_085_c
+import abc085_c
 
 test "q1":
   check calc(9, 45000) != [-1, -1, -1]

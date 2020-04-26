@@ -1,6 +1,6 @@
 import unittest, random
 
-import abc_081_b
+import abc081_b
 
 test "q1": check calc(@[8, 12, 40]) == 2
 test "q2": check calc(@[5, 6, 8, 10]) == 0

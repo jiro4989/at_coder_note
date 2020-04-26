@@ -1,6 +1,6 @@
 import unittest
 
-import abc_086_c
+import abc086_c
 
 test "q1": check calc(@[@[3, 1, 2], @[6, 1, 1]]) == "Yes"
 test "q2": check calc(@[@[2, 100, 100]]) == "No"
