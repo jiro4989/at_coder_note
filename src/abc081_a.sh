@@ -1,3 +1,3 @@
 #!/bin/bash
 
-grep -o . | grep 1 | wc -l
+tr -d 0\\n|wc -c
