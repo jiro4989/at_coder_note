@@ -37,7 +37,7 @@ when isMainModule:
 
   body = &"""import unittest
 
-import {testScript}
+import {moduleName}
 
 test "q1": check calc("todo") == "todo"
   """
