@@ -22,7 +22,7 @@ proc main(): int =
     script = moduleName & ".nim"
     testScript = "test_" & moduleName & ".nim"
 
-  var body = """import strutils, sequtils
+  var body = """import strscans, strutils, sequtils
 
 proc calc*(s: string): string =
   discard
@@ -30,7 +30,7 @@ proc calc*(s: string): string =
 when isMainModule:
   let s = stdin.readline
   echo calc(s)
-  """
+"""
 
   writeFile(script, body)
   echo "generated: " & script
@@ -40,7 +40,7 @@ when isMainModule:
 import {moduleName}
 
 test "q1": check calc("todo") == "todo"
-  """
+"""
 
   writeFile(testScript, body)
   echo "generated: " & testScript
